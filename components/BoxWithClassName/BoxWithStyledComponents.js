@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function BoxWithStyledComponents({ $color }) {
-    return <StyledBox $isBlack={$color} />;
+export default function BoxWithStyledComponents({ $isBlack }) {
+    return <StyledBox $isBlack={$isBlack} />;
   }
 
   const StyledBox = styled.div`
